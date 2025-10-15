@@ -3,10 +3,10 @@ channels: [conda-forge]
 dependencies:
   - python=3.13
   - pip
+  - numpy
   - pip:
       - -e .
       - pytest
       - pytest-cov
       - flake8
-      - numpy
 
