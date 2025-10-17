@@ -18,6 +18,7 @@ class TestSimpleFunctions:
         (5, 120),
         (3, 6),
         (1, 1),
+        (0, 1),
     ])
     def test_factorial(self, number, expected):
         """Test our factorial function"""
